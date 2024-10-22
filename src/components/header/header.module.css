@@ -1,0 +1,22 @@
+.logo{
+  width: 45px;
+  height: 30px;
+}
+
+.logo_container{
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+}
+.logo_container span{
+  font-size: 8px;
+  font-weight: bold;
+  position: relative;
+  top: 1px;
+  margin-bottom: 0px;
+}
+
+.user_icons i{
+margin-left: 8px;
+font-size: 20px;
+}
