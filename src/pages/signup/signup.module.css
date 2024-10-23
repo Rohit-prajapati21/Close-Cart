@@ -1,0 +1,32 @@
+.signupPage_container{
+  background-color: black;
+  margin: 20px 385px;
+  width: 400px ;
+  padding: 25px 20px;
+}
+
+.signupPage_container span{
+  color: white;
+  position: relative;
+  left: 144px ;
+  bottom: 7px;
+
+}
+
+.signupPage_container form div label{
+  color: white;
+}
+.signupPage_container form div input{
+  outline-style: none;
+  padding: 2px;
+}
+.signupPage_container form div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.signupPage_container form button{
+  margin-top: 10px;
+  width: 360px;
+}
