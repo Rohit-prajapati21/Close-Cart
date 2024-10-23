@@ -1,0 +1,38 @@
+.signinPage_container{
+  background-color: black;
+  margin: 20px 385px;
+  width: 400px ;
+  padding: 25px 20px;
+}
+
+.signinPage_container span{
+  color: white;
+  position: relative;
+  left: 144px ;
+  bottom: 7px;
+
+}
+
+.signinPage_container form div label{
+  color: white;
+}
+.signinPage_container form div input{
+  outline-style: none;
+  padding: 2px;
+}
+.signinPage_container form div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.signinPage_container form button{
+  margin-top: 10px;
+  width: 360px;
+}
+
+.signinPage_container  form a{
+  position: relative;
+  left: 195px;
+  font-size: 12px;
+}
