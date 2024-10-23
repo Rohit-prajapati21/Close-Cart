@@ -19,4 +19,6 @@
 .user_icons i{
 margin-left: 8px;
 font-size: 20px;
+position: relative;
+top: 5px;
 }
