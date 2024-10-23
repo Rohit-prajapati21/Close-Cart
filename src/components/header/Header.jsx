@@ -1,5 +1,6 @@
 import sty from "./header.module.css";
 import logo from '../../assets/logo.png'
+import {Link} from 'react-router-dom'
 function Header() {
   return (
     <div className={sty.head_container}>
@@ -51,14 +52,18 @@ function Header() {
               />
             </form>
 
-            {/* <div className="text-end">
+            <div className="text-end">
+              <Link to='/signin'>
             <button type="button" className="btn btn-outline-light me-2">Login</button>
+            </Link>
+            <Link to='/signup'>
             <button type="button" className="btn btn-warning">Sign-up</button>
-          </div> */}
-            <div className={sty.user_icons}>
+            </Link>
+          </div>
+            {/* <div className={sty.user_icons}>
               <i className="bi bi-person-circle"></i>
               <i className="bi bi-bag"></i>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
