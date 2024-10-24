@@ -1,0 +1,111 @@
+.cart_container {
+  margin: 80px 150px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left_section .heading{
+  background-color: white;
+  height: 30px;
+  padding-top: 5px;
+
+}
+.left_section .heading{
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.items{
+  margin-top: 5px;
+}
+
+.left_section .order_btn{
+  background-color: white;
+  padding: 5px;
+}
+.left_section .order_btn button{
+  border: none;
+ position: relative;
+ left: 350px;
+ padding: 8px 15px;
+ font-size: 12px;
+ background-color: #fb641b;
+ color: white;
+ font-weight: bold;
+}
+
+/* right section */
+
+.right_section{
+  background-color: white;
+  margin-left: 30px;
+  position: fixed;
+  top: 117px;
+  right: 230px;
+  width: 300px;
+  padding: 10px 15px;
+}
+
+.title{
+font-size: 14px;
+color: gainsboro;
+font-weight: bold;
+}
+.right_section hr{
+  color: gray;
+}
+.price_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.price_box #pricebox_name{
+  font-size: 12px;
+  font-weight: bold;
+}
+.price_box #pricebox_value{
+  font-size: 13px;
+}
+
+
+.discount_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.discount_box #discountbox_name{
+  font-size: 12px;
+  font-weight: bold;
+}
+.discount_box #discountbox_value{
+  font-size: 13px;
+}
+
+
+.delevery_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.delevery_box #deleverybox_name{
+  font-size: 12px;
+  font-weight: bold;
+}
+.delevery_box #deleverybox_value{
+  font-size: 13px;
+}
+
+.total_ammount{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total_ammount p{
+  font-size: 14px;
+  font-weight: bold;
+}
+.total_ammount span{
+  font-size: 13px;
+}
