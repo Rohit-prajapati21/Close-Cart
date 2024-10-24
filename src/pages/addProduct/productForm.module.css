@@ -1,0 +1,29 @@
+.Productform_container{
+  margin: 100px 450px;
+  background-color: black;
+  width: 300px;
+  padding: 5px 20px;
+  padding-bottom: 20px;
+}
+
+.Productform_container form label{
+  color: white;
+}
+.Productform_container form div input{
+  margin-top: 3px;
+  outline-style: none;
+}
+.Productform_container form div{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.Productform_container form button{
+  margin-top: 10px;
+  width: 260px;
+  font-size: 14px;
+}
+#imgInput{
+  color: white;
+}

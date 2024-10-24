@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 function Header() {
-  const [Tab, setTab] = useState(true);
+  const [Tab, setTab] = useState(false);
   return (
     <div className={sty.head_container}>
       <header className="p-3 text-bg-dark">
@@ -11,20 +11,22 @@ function Header() {
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <div className={sty.logo_container}>
               <img src={logo} alt="" className={sty.logo} />
+
               <span className={sty.logo}>CLOSECART</span>
             </div>
 
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li>
-                <a href="#" className="nav-link px-2 text-secondary">
+                <Link to="/" className="nav-link px-2 text-secondary">
                   Home
-                </a>
+                </Link>
               </li>
-              {/* <li>
-                <a href="#" className="nav-link px-2 text-white">
-                  Features
-                </a>
+              <li>
+                <Link to="/add-product" className="nav-link px-2 text-white">
+                  addProduct
+                </Link>
               </li>
+               {/*
               <li>
                 <a href="#" className="nav-link px-2 text-white">
                   Pricing
@@ -71,8 +73,12 @@ function Header() {
                 <button type="button" className="btn btn-warning">
                   Logout
                 </button>
-                <i className="bi bi-person-circle"></i>
-                <i className="bi bi-bag"></i>
+                <Link to="/profile">
+                <i className="bi bi-person-circle text-white"></i>
+                </Link>
+                <Link to="/cart">
+                  <i className="bi bi-bag text-white"></i>
+                </Link>
               </div>
             )}
           </div>
