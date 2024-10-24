@@ -1,0 +1,164 @@
+.profile_container{
+ margin:  90px 100px;
+ display: flex;
+ flex-direction: row;
+}
+
+.left_section{
+  width: 25%;
+}
+.user_info{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 10px;
+}
+.user_info img{
+width: 30px;
+height: 30px;
+}
+.user_info div{
+  margin-left: 8px;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.user_info div span{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+
+.user_settings{
+  background-color: white;
+  width: 100%;
+  margin-top: 5px;
+  padding: 0px 15px;
+}
+
+.box1{
+  /* background-color: yellow; */
+  padding: 5px 0px;
+  border-bottom: 1px solid black;
+}
+.box1 i{
+  font-size: 20px;
+}
+.box1 span{
+  font-size: 14px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 1.5px;
+}
+
+.box2{
+  /* background-color: aqua; */
+  margin-top: 2px;
+  padding: 0 30px;
+}
+.box2 a{
+  text-decoration: none;
+  font-size: 13px;
+}
+.box2 a:hover{
+  color: black;
+}
+
+
+.box3{
+ 
+  padding: 0 30px;
+  padding-bottom: 5px;
+}
+.box3 a{
+  text-decoration: none;
+  font-size: 13px;
+}
+.box3 a:hover{
+  color: black;
+}
+
+
+/* right section */
+
+.right_section{
+  margin-left: 30px;
+  background-color: white;
+}
+
+.profile_info{
+  width: 650px;
+  padding: 20px 30px;
+}
+
+.input_box1{
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  justify-content: space-between;
+}
+
+.gender div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130px;
+}
+.gender div input{
+  margin-top: 3px;
+
+}
+.gender span{
+  font-size: 14px;
+}
+.user a{
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.user span{
+  font-size: 14px;
+}
+
+/* all save buttons */
+.input_btn button{
+  border: none;
+  margin-left: 25px;
+  padding: 5px 25px;
+  color: white;
+  background-color: blue;
+  font-size: 13px;
+}
+
+.input_box2{
+margin-top: 5px;
+}
+.email{
+  margin-bottom: 5px;
+}
+.email a{
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+.email span{
+  font-size: 14px;
+}
+
+
+.input_box3{
+  margin-top: 5px;
+  }
+  .contect{
+    margin-bottom: 5px;
+  }
+  .contect a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .contect span{
+    font-size: 14px;
+  }
+  
