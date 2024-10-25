@@ -26,12 +26,13 @@ function Header() {
                   addProduct
                 </Link>
               </li>
-               {/*
+             
               <li>
-                <a href="#" className="nav-link px-2 text-white">
-                  Pricing
-                </a>
+                <Link to="/products" className="nav-link px-2 text-white">
+                  Products
+                </Link>
               </li>
+                {/*
               <li>
                 <a href="#" className="nav-link px-2 text-white">
                   FAQs

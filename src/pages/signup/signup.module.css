@@ -3,6 +3,7 @@
   margin: 20px 385px;
   width: 400px ;
   padding: 25px 20px;
+  margin-top: 100px;
 }
 
 .signupPage_container span{
@@ -29,4 +30,9 @@
 .signupPage_container form button{
   margin-top: 10px;
   width: 360px;
+}
+.signupPage_container form a{
+  font-size: 12px;
+  position: relative;
+  left: 195px;
 }

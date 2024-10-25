@@ -1,0 +1,40 @@
+.product_container {
+  margin: 80px 100px;
+  background-color: white;
+  width: 80%;
+}
+
+.search_box{
+  display: flex;
+  flex-direction: row;
+  /* background-color: aqua; */
+  
+  /* justify-content: space-between; */
+}
+.search_box input{
+  width: 50%;
+  outline-style: none;
+  padding: 2px;
+  margin-left: 200px;
+  margin-top: 5px;
+}
+
+.icon{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 40px;
+
+}
+.icon i{
+  position: relative;
+  left: 12px;
+  top: 3px;
+}
+
+.products{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 50px;
+  
+}

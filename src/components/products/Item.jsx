@@ -1,6 +1,8 @@
 import sty from './item.module.css'
 import Img from '../../assets/beetroot.jpg'
 import { useState } from 'react'
+import { Changes } from '../seller-product-button/Button'; 
+import Button from '../seller-product-button/Button';
 function Item() {
   const[tab,setTab] = useState(true);
 
@@ -14,9 +16,10 @@ function Item() {
     <div className={sty.buttons_container}>
     {tab?(  <button className='btn btn-success'>go To Bag <i className="bi bi-bag-plus"></i></button>
 ):(  <button className='btn btn-warning'>add To Bag <i className="bi bi-bag-plus"></i></button>
-)}
-      
-    </div>
+)} 
+    </div> 
+    {/* <Changes/>
+    <Button/>  */}
     </div>
   )
 }

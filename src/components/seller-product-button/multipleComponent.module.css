@@ -1,0 +1,24 @@
+.button_box{
+  display: flex;
+  flex-direction: column;
+}
+
+.button_box button{
+  font-size: 10px;
+  color: white;
+  margin-top: 2px;
+}
+.Changes_box{
+ display: flex;
+ flex-direction: column;
+}
+.Changes_box input{
+margin-top: 2px;
+  outline-style: none;
+  width: 80%;
+}
+.Changes_box button{
+  font-size: 10px;
+  color: white;
+margin-top: 5px;
+}

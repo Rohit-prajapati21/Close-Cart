@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import {Link } from 'react-router-dom'
 import sty from "./signup.module.css";
 function Signup() {
   const FirstName= useRef();
@@ -47,6 +48,7 @@ function handleAllSignUpData(e){
         </div>
 
         <button className="btn btn-warning" type="submit">Sign up</button>
+        <Link to="/signin">Already have an account?signin</Link>
       </form>
     </div>
   );

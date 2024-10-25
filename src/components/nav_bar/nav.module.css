@@ -5,6 +5,9 @@
   background-color: white;
   padding: 0px 85px;
   height: 30px;
+  position: fixed;
+  top: 70px;
+  width: 100%;
 }
 .nav_bar div{
   margin-left: 10px;
